@@ -1,0 +1,100 @@
+.title {
+  font-size:1.25rem;
+  font-weight: bold;
+  margin-bottom:10px;
+
+}
+.cat{
+  font-size:1.1rem;
+  margin-bottom:10px;
+}
+
+.address{
+  font-size:1rem;
+  font-weight: normal;
+  color:grey;
+}
+
+.contents{
+  border-style:  none none solid;
+
+  padding:40px;
+
+  border-color: #d9e4dd;
+
+}
+
+.img{
+
+  margin-right:20px;
+
+}
+.bigarea{
+  border:30px;
+}
+
+.recommend{
+  border-style: solid;
+  border-radius:10;
+
+
+  border-color:#d9e4dd;
+
+  padding:20px;
+}
+
+.clickbtn{
+
+  padding:20px;
+  color: grey;
+}
+
+.btn-group-toggle{
+  margin:20px;
+}
+.btn1{
+  margin:1px;
+
+}
+
+.btn2{
+  margin:2px;
+}
+
+
+
+.area{
+  margin:2px;
+
+}
+
+.information_now{
+  border-style: solid;
+  border-color: #d9e4dd;
+  padding:40px;
+
+  margin:30px;
+}
+
+.ranking{
+  border-style: solid;
+  border-radius:10;
+
+
+  border-color:black;
+
+  padding:20px;
+
+}
+
+.misc_btn {
+    background-color: white;
+    border: 1px #A7D1DD;
+    color: black;
+}
+
+.misc_btn:hover {
+    background-color: #A7D1DD;
+    color:white;
+}
+

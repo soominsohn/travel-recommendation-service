@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+body {font-family: 'Nanum Gothic', sans-serif;}
+
+
+
+.home_table{
+    border-spacing: 10px 50px;
+}
+
+.button_area{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 4px;
+    transition-duration: 0.4px;
+    cursor: pointer;
+}
+
+.button_map{
+    background-color: transparent;
+    border: none;
+    border: 5px 5px;
+    color: gray;
+}
+
+.button_map: hover{
+    background-color: white;
+    border: 2px white;
+    opacity: 0.7;
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+
+.container1 img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  padding: 20px auto;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn_dis {
+  border: 1px #A7D1DD; 
+  background-color: transparent; 
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.btn_dis:hover{
+  background-color: #A7D1DD;
+  color: black;
+  opacity: 0.5;
+}
+
+
+.container .btn:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+}    
+    
+.misc_btn {
+    background-color: white;
+    border: 1px #A7D1DD;
+    font-size: 16px;
+    color: black;
+}
+
+.misc_btn:hover {
+    background-color: #A7D1DD;
+    color:white;
+}
+
+.color_block {
+    background-color: #A7D1DD;
+    color:black;
+    opacity: 0.8;
+    align: center;
+}
+
+.trip_block {
+    color:black;
+    font-size: 15px;
+    text-align: left;
+    padding: 30px 50px;
+    width: 90%;
+    height: auto;
+    align: center;
+}
+
+.trip_table{
+    background-color: transparent;
+    color: black;
+    border-spacing: 50px;
+}
+
+.loginbox{
+    background-color: #E6F1F3;
+    color: black;
+    padding: 5px 20px;
+    border: none;
+    width: 180px;
+    height: 18px;
+}
+
+.selectbox{
+    background-color: #E6F1F3;
+    color: black;
+    border: none;
+    width: 180px;
+    height: 18px;
+{
+  

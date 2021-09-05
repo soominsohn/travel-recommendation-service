@@ -1,0 +1,11 @@
+CREATE TABLE place (
+    place_id INT(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    place_name VARCHAR(100),
+    new_address VARCHAR(100),
+    cat_big VARCHAR(30),
+    cat_spec VARCHAR(30),
+    tag VARCHAR(200),
+    img_url1 VARCHAR(500),
+    img_url2 VARCHAR(500),
+    district VARCHAR(20)
+	);

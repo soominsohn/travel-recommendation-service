@@ -1,0 +1,4 @@
+CREATE TABLE area(
+    area_id int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    area_name VARCHAR(20)
+);

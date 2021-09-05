@@ -1,0 +1,5 @@
+CREATE TABLE district(
+    district_id int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    district_name VARCHAR(20),
+    area_name VARCHAR(20)
+);

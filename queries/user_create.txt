@@ -1,0 +1,6 @@
+
+CREATE TABLE user (
+user_num INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
+user_id varchar(20) NOT NULL, 
+user_pw varchar(20) NOT NULL, 
+user_nick varchar(20) NOT NULL);

@@ -1,0 +1,5 @@
+CREATE TABLE user_tag(
+	place_name VARCHAR(100),
+	tag VARCHAR(500)
+);
+

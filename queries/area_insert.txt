@@ -1,0 +1,6 @@
+INSERT INTO area(area_name) VALUES
+('도심권'),
+('동남권'),
+('동북권'),
+('서남권'),
+('서북권');

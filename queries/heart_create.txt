@@ -1,0 +1,7 @@
+CREATE TABLE heart (
+    heart_num INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    place_name VARCHAR(100),
+    heart_id INT,
+    trip_num INT,
+    FOREIGN KEY(heart_id) REFERENCES user(user_num)
+    );

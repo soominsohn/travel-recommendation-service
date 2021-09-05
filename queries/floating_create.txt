@@ -1,0 +1,8 @@
+CREATE TABLE floating (
+    day_num VARCHAR(20),
+    hour INT,
+    sex VARCHAR(10),
+    district VARCHAR(20),
+    number INT,
+    day VARCHAR(10)
+    );

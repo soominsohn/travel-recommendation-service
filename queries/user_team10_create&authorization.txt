@@ -1,0 +1,9 @@
+mysql -u root -p로 기존 mysql 서버에 로그인
+
+create user 'team10'@'localhost' identified by 'team10';
+grant all privileges on *.* to 'team10'@'localhost';
+
+**database team10 생성
+create database team10;
+
+grant all privileges on team10.* to 'team10'@'localhost';

@@ -1,0 +1,34 @@
+﻿1. district에 area_id 추가하고 외래 키 생성
+
+ALTER TABLE district ADD area_id INT(10);
+ALTER TABLE district ADD FOREIGN KEY(area_id) REFERENCES area(area_id);
+UPDATE district d JOIN area a ON d.area_name=a.area_name SET d.area_id=a.area_id;
+
+2. place에 cat_big_id, district_id 추가하고 외래 키 생성
+
+ALTER TABLE place ADD cat_big_id INT;
+ALTER TABLE place ADD district_id INT(10);
+
+ALTER TABLE place ADD FOREIGN KEY(cat_big_id) REFERENCES cat_big(id);
+ALTER TABLE place ADD FOREIGN KEY(district_id) REFERENCES district(district_id);
+
+
+UPDATE place p JOIN cat_big c ON p.cat_big=c.cat_big SET p.cat_big_id=c.id;
+UPDATE place p JOIN district d ON p.district=d.district_name SET p.district_id=d.district_id;
+
+3.생성한 외래키에 상응하는 기존 칼럼들 삭제
+
+place의 cat_big, district 칼럼 드랍
+ALTER TABLE place DROP COLUMN district;
+ALTER TABLE place DROP COLUMN cat_big;
+
+district의 area_name 칼럼 드랍
+ALTER TABLE district DROP COLUMN area_name;
+
+
+4. place 테이블의 place_num 칼럼에 대한 인덱스 생성
+CREATE INDEX place_index ON place(place_name);
+
+
+
+

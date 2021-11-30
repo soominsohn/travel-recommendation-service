@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/83059234/132118924-af6a9354-aca3-4a7a-
 
 
 ### Core Technical Skills  
-- Database (transaction, dynamic queries, CRUD)  
+- Database (CRUD)
 - PHP Sessions  
 - Scraping Data by Using Python Libraries(Selenium, Webdriver)  
 - Client/Server Model  
